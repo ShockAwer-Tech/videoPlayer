@@ -1,0 +1,30 @@
+.effects{
+	text-decoration: none;
+}
+#effect{
+	float: left;
+}
+#playControl{
+	
+	margin: 0px 0px 0px 300px;
+}
+.playControl{
+	text-decoration: none;
+}
+#playList{
+	clear: both;
+}
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+video{
+	background-color: black;
+}
+#videoDiv{
+	position: relative;
+	top: 0px;
+	left: 0px;
+
+}

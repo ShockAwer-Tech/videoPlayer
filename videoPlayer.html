@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>videoPlayer</title>
+	<script type="text/javascript" src="scripts/videoPlayer.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/videoPlayer.css">
+</head>
+<body>
+	<div id="videoDiv">
+		<video  id="videoPlayer" name="play" controls  src="1.mp4"  poster="" height="480" width="640" ></video>
+		<canvas id="buffer" height="480" width="640"></canvas>		
+		<canvas id="display" height="480" width="640"></canvas>	
+	</div>
+	<div id="controls">
+		<dir id="effect">
+			<a id="normal" href="#" class="effects">normal</a>
+			<a id="western" href="#" class="effects">western</a>
+			<a id="gray" href="#" class="effects">gray</a>
+			<a id="black" href="#" class="effects">black</a>
+			<a id="convert" href="#" class="effects">convert</a>
+			<a id="statue" href="#" class="effects">statue</a>
+		</dir>
+		<div id="playControl">
+			<a id="play" href="#" class="playControl">play</a>
+			<a id="pause" href="#" class="playControl">pause</a>
+			<a id="loop" href="#" class="playControl">loop</a>
+			<a id="mute" href="#" class="playControl">mute</a>			
+		</div>
+	</div>
+	<div id="playList"> 
+		<ul id="ul">
+			
+		</ul>
+	</div>
+</body>
+</html>
